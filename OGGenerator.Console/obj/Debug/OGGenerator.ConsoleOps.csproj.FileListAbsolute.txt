@@ -1,0 +1,14 @@
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.Console.exe.config
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.Console.exe
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.Console.pdb
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.BLL.dll
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.Domain.dll
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.Infrastructure.dll
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.BLL.pdb
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.Domain.pdb
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.Infrastructure.pdb
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\obj\Debug\OGGenerator.ConsoleOps.csprojAssemblyReference.cache
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\obj\Debug\OGGenerator.ConsoleOps.csproj.CoreCompileInputs.cache
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\obj\Debug\OGGenerator.ConsoleOps.csproj.CopyComplete
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\obj\Debug\OGGenerator.Console.exe
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\obj\Debug\OGGenerator.Console.pdb

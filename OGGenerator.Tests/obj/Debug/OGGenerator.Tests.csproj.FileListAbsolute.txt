@@ -1,0 +1,14 @@
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\bin\Debug\OGGenerator.Tests.dll
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\bin\Debug\OGGenerator.Tests.pdb
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\obj\Debug\OGGenerator.Tests.csproj.CoreCompileInputs.cache
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\obj\Debug\OGGenerator.Tests.csproj.CopyComplete
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\obj\Debug\OGGenerator.Tests.dll
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\obj\Debug\OGGenerator.Tests.pdb
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\obj\Debug\OGGenerator.Tests.csprojAssemblyReference.cache

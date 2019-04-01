@@ -1,0 +1,11 @@
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.BLL.dll
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.BLL.pdb
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.Domain.dll
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.Infrastructure.dll
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.Domain.pdb
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.Infrastructure.pdb
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.BLL\obj\Debug\OGGenerator.BLL.csprojAssemblyReference.cache
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.BLL\obj\Debug\OGGenerator.BLL.csproj.CoreCompileInputs.cache
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.BLL\obj\Debug\OGGenerator.BLL.csproj.CopyComplete
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.BLL\obj\Debug\OGGenerator.BLL.dll
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.BLL\obj\Debug\OGGenerator.BLL.pdb

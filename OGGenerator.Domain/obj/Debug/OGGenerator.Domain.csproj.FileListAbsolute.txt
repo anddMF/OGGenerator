@@ -1,0 +1,5 @@
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Domain\bin\Debug\OGGenerator.Domain.dll
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Domain\bin\Debug\OGGenerator.Domain.pdb
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Domain\obj\Debug\OGGenerator.Domain.csproj.CoreCompileInputs.cache
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Domain\obj\Debug\OGGenerator.Domain.dll
+C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Domain\obj\Debug\OGGenerator.Domain.pdb
