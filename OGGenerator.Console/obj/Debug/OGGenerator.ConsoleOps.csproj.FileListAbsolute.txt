@@ -12,3 +12,17 @@ C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\obj\Debug\OGGenerat
 C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\obj\Debug\OGGenerator.ConsoleOps.csproj.CopyComplete
 C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\obj\Debug\OGGenerator.Console.exe
 C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Console\obj\Debug\OGGenerator.Console.pdb
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.Console.exe.config
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.Console.exe
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.Console.pdb
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.BLL.dll
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.Domain.dll
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.Infrastructure.dll
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.BLL.pdb
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.Domain.pdb
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Console\bin\Debug\OGGenerator.Infrastructure.pdb
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Console\obj\Debug\OGGenerator.ConsoleOps.csprojAssemblyReference.cache
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Console\obj\Debug\OGGenerator.ConsoleOps.csproj.CoreCompileInputs.cache
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Console\obj\Debug\OGGenerator.ConsoleOps.csproj.CopyComplete
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Console\obj\Debug\OGGenerator.Console.exe
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Console\obj\Debug\OGGenerator.Console.pdb
