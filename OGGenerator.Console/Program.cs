@@ -15,13 +15,18 @@ namespace OGGenerator.ConsoleOps
         static void Main(string[] args)
         {
             #region compile
-            Console.WriteLine("Insira a table: ");
-            var tableName = Console.ReadLine();
-            
-            IModelGenerator svc = new ModelGenerator();
-            svc.DoGenerator(tableName, CommandType.Text);
+            var continuar = 1;
+            //do
+            //{
+                Console.WriteLine("Insira a table: ");
+                var tableName = Console.ReadLine();
 
-            Console.ReadKey();
+                IModelGenerator svc = new ModelGenerator();
+                svc.DoGenerator(tableName, CommandType.Text);
+
+                Console.ReadKey();
+            //} while ();
+
             #endregion
         }
     }

@@ -14,6 +14,7 @@ namespace OGGenerator.BLL.Services
         public void DoGenerator(string table, CommandType type)
         {
             var conn = new OGGenerator.Infrastructure.ConnectionFactory();
+            var fileSvc = new FileGenerator();
 
             SqlDataReader result = conn.GetReader("select top 1 * from " + table, CommandType.Text);
 
@@ -22,9 +23,10 @@ namespace OGGenerator.BLL.Services
 
             foreach (DataColumn column in dt.Columns)
             {
-                var t = column.DataType.Name;
-                var c = column.ColumnName;
-                Console.WriteLine("public "+ t + " " + c + " { get; set; } ");
+                var propType = column.DataType.Name;
+                var propName = column.ColumnName;
+                fileSvc.Generate(propType, propName);
+                Console.WriteLine("public "+ propType + " " + propName + " { get; set; } ");
             }
             Console.ReadKey();
         }

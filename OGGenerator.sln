@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OGGenerator.BLL", "OGGenera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OGGenerator.Domain", "OGGenerator.Domain\OGGenerator.Domain.csproj", "{A93E7E61-D5F2-4DB5-B5E2-A684CEF3367D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OGGenerator.CrossCutting", "OGGenerator.CrossCutting\OGGenerator.CrossCutting.csproj", "{C2F7469C-D001-4978-B1FB-CE737C5B15B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{A93E7E61-D5F2-4DB5-B5E2-A684CEF3367D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A93E7E61-D5F2-4DB5-B5E2-A684CEF3367D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A93E7E61-D5F2-4DB5-B5E2-A684CEF3367D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F7469C-D001-4978-B1FB-CE737C5B15B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F7469C-D001-4978-B1FB-CE737C5B15B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F7469C-D001-4978-B1FB-CE737C5B15B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F7469C-D001-4978-B1FB-CE737C5B15B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
