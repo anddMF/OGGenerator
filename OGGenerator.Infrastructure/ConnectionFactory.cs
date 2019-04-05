@@ -49,7 +49,7 @@ namespace OGGenerator.Infrastructure
                     foreach (var pr in parametros)
                         cmd.Parameters.AddWithValue(pr.Key, pr.Value);
 
-                return cmd.ExecuteReader(); //SELECT , PROC QUE RETORNEM TABELA (n LINHAS E n COLUNAS)
+                return cmd.ExecuteReader(); //SELECT, PROC QUE RETORNEM TABELA (n LINHAS E n COLUNAS)
             }
         }
 

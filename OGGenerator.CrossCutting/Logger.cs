@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ namespace OGGenerator.CrossCutting
         {
 
             #region Folder ops
-            string pathFolder = string.Format("{0}{1}", AppDomain.CurrentDomain.BaseDirectory, "logs");
+            string pathFolder = string.Format("{0}{1}", ConfigurationManager.AppSettings["PastaModels"], "\\logs");
             if (!Directory.Exists(pathFolder))
             {
                 Directory.CreateDirectory(pathFolder);

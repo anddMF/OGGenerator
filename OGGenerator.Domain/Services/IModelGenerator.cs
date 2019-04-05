@@ -9,6 +9,6 @@ namespace OGGenerator.Domain.Services
 {
     public interface IModelGenerator
     {
-        void DoGenerator(string table, CommandType type);
+        void Generate(string table, CommandType type);
     }
 }

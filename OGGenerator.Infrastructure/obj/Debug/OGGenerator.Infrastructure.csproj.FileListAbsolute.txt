@@ -3,3 +3,8 @@ C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Infrastructure\bin\Debug\OG
 C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Infrastructure\obj\Debug\OGGenerator.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Infrastructure\obj\Debug\OGGenerator.Infrastructure.dll
 C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Infrastructure\obj\Debug\OGGenerator.Infrastructure.pdb
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Infrastructure\bin\Debug\OGGenerator.Infrastructure.dll
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Infrastructure\bin\Debug\OGGenerator.Infrastructure.pdb
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Infrastructure\obj\Debug\OGGenerator.Infrastructure.csproj.CoreCompileInputs.cache
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Infrastructure\obj\Debug\OGGenerator.Infrastructure.dll
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Infrastructure\obj\Debug\OGGenerator.Infrastructure.pdb

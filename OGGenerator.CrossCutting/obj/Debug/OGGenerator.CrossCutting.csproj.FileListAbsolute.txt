@@ -1,0 +1,5 @@
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.CrossCutting\bin\Debug\OGGenerator.CrossCutting.dll
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.CrossCutting\bin\Debug\OGGenerator.CrossCutting.pdb
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.CrossCutting\obj\Debug\OGGenerator.CrossCutting.csproj.CoreCompileInputs.cache
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.CrossCutting\obj\Debug\OGGenerator.CrossCutting.dll
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.CrossCutting\obj\Debug\OGGenerator.CrossCutting.pdb

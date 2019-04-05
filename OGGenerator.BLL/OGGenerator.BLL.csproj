@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -45,6 +46,10 @@
     <Compile Include="Services\ModelGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\OGGenerator.CrossCutting\OGGenerator.CrossCutting.csproj">
+      <Project>{C2F7469C-D001-4978-B1FB-CE737C5B15B9}</Project>
+      <Name>OGGenerator.CrossCutting</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OGGenerator.Domain\OGGenerator.Domain.csproj">
       <Project>{A93E7E61-D5F2-4DB5-B5E2-A684CEF3367D}</Project>
       <Name>OGGenerator.Domain</Name>

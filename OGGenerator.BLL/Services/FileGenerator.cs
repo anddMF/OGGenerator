@@ -1,5 +1,7 @@
-﻿using System;
+﻿using OGGenerator.CrossCutting;
+using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -12,28 +14,36 @@ namespace OGGenerator.BLL.Services
         public bool Generate(string type, string name)
         {
             string pathFolder = string.Format("{0}{1}", AppDomain.CurrentDomain.BaseDirectory, "models");
-            if (!Directory.Exists(pathFolder))
+            string pathFolderAppConfig = string.Format("{0}{1}", ConfigurationManager.AppSettings["PastaModels"], "\\models");
+
+            if (!Directory.Exists(pathFolderAppConfig))
             {
-                Directory.CreateDirectory(pathFolder);
+                Directory.CreateDirectory(pathFolderAppConfig);
             }
 
-            string filepath = string.Format("{0}\\{1}.txt", pathFolder, "model");
-
-            if (!File.Exists(filepath))
+            string filepath = string.Format("{0}\\{1}.txt", pathFolderAppConfig, "model");
+            try
             {
-                using (StreamWriter sw = File.CreateText(filepath))
+                if (!File.Exists(filepath))
                 {
-                    sw.WriteLine("public "+ type +" "+ name +" { get; set; }");
+                    using (StreamWriter sw = File.CreateText(filepath))
+                    {
+                        sw.WriteLine("public " + type.ToLower() + " " + name + " { get; set; }");
+                    }
+                }
+                else
+                {
+                    using (StreamWriter sw = File.AppendText(filepath))
+                    {
+                        sw.WriteLine("public " + type + " " + name + " { get; set; }");
+                    }
                 }
             }
-            else
+            catch (Exception ex)
             {
-                using (StreamWriter sw = File.AppendText(filepath))
-                {
-                    sw.WriteLine("public " + type + " " + name + " { get; set; }");
-                }
+                Console.WriteLine(ex.Message);
+                Logger.WriteToLogFile(Logger.logType.ERROR, ex.Message, "FileGenerator.Generate()");
             }
-
             return false;
         }
     }

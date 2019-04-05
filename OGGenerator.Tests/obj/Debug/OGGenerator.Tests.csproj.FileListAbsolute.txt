@@ -12,3 +12,17 @@ C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\obj\Debug\OGGenerator
 C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\obj\Debug\OGGenerator.Tests.dll
 C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\obj\Debug\OGGenerator.Tests.pdb
 C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Tests\obj\Debug\OGGenerator.Tests.csprojAssemblyReference.cache
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Tests\bin\Debug\OGGenerator.Tests.dll
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Tests\bin\Debug\OGGenerator.Tests.pdb
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Tests\obj\Debug\OGGenerator.Tests.csproj.CoreCompileInputs.cache
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Tests\obj\Debug\OGGenerator.Tests.csproj.CopyComplete
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Tests\obj\Debug\OGGenerator.Tests.dll
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Tests\obj\Debug\OGGenerator.Tests.pdb
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.Tests\obj\Debug\OGGenerator.Tests.csprojAssemblyReference.cache

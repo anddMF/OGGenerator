@@ -20,3 +20,5 @@ C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.BLL\obj\Debug\OGGenerator.B
 \\VBOXSVR\Shared\OGGenerator\OGGenerator.BLL\obj\Debug\OGGenerator.BLL.csproj.CopyComplete
 \\VBOXSVR\Shared\OGGenerator\OGGenerator.BLL\obj\Debug\OGGenerator.BLL.dll
 \\VBOXSVR\Shared\OGGenerator\OGGenerator.BLL\obj\Debug\OGGenerator.BLL.pdb
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.CrossCutting.dll
+\\VBOXSVR\Shared\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.CrossCutting.pdb
