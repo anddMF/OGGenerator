@@ -28,7 +28,7 @@ namespace OGGenerator.BLL.Services
                 {
                     var propType = column.DataType.Name;
                     var propName = column.ColumnName;
-                    fileSvc.Generate(propType, propName);
+                    fileSvc.Generate(propType, propName, table);
                     Console.WriteLine("public " + propType + " " + propName + " { get; set; } ");
                 }
             }

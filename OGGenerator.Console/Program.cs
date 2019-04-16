@@ -23,12 +23,36 @@ namespace OGGenerator.ConsoleOps
             do
             {
                 continuar = "";
+                bool sair = false;
+                int menu = 0;
+                while (!sair)
+                {
+                    menu = DoOptions();
+
+                    if (menu < 1 && menu > 3)
+                    {
+                        Console.WriteLine("==! Opcao invalida");
+                    }
+                    else
+                    {
+                        switch (menu)
+                        {
+                            case 1:
+                                Console.WriteLine("opcao 1");
+                                break;
+                            default:
+                                Console.WriteLine("==! Conseguiu fazer merda, parabéns");
+                                break;
+                        }
+                    }
+
+                }
 
                 Console.Write("\n=>Insira a table: ");
                 var tableName = Console.ReadLine();
 
                 IModelGenerator svc = new ModelGenerator();
-                svc.DoGenerator(tableName, CommandType.Text);
+                svc.Generate(tableName, CommandType.Text);
 
                 Console.ReadKey();
 
@@ -40,6 +64,8 @@ namespace OGGenerator.ConsoleOps
             #endregion
         }
 
+        
+
         public static string DoContinue()
         {
             string _continuar = "y";
@@ -50,6 +76,32 @@ namespace OGGenerator.ConsoleOps
                 Console.WriteLine("\n==! Opcao inválida");
 
             return _continuar;
+        }
+
+        public static int DoOptions()
+        {
+            int option = 0;
+
+            while (option < 1 && option > 3)
+            {
+                try
+                {
+                    Console.WriteLine("==> Escolha a operação desejada: ");
+                    Console.WriteLine("\t 1 - Listar todas as tabelas do DB");
+                    Console.WriteLine("\t 2 - Digitar a tabela desejada");
+                    Console.WriteLine("\t 3 - Gerar model de todas as tables do DB");
+                    option = Convert.ToInt32(Console.ReadLine());
+
+                    return option;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("==! Erro de conversão: " + ex.Message);
+                    return 0;
+                }
+            }
+
+            return 0;
         }
     }
 }

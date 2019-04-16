@@ -11,7 +11,7 @@ namespace OGGenerator.BLL.Services
 {
     public class FileGenerator
     {
-        public bool Generate(string type, string name)
+        public bool Generate(string type, string name, string tableName)
         {
             string pathFolder = string.Format("{0}{1}", AppDomain.CurrentDomain.BaseDirectory, "models");
             string pathFolderAppConfig = string.Format("{0}{1}", ConfigurationManager.AppSettings["PastaModels"], "\\models");
@@ -21,21 +21,26 @@ namespace OGGenerator.BLL.Services
                 Directory.CreateDirectory(pathFolderAppConfig);
             }
 
-            string filepath = string.Format("{0}\\{1}.txt", pathFolderAppConfig, "model");
+            string filepath = string.Format("{0}\\{1}.txt", pathFolderAppConfig, tableName);
             try
             {
+                string lowerType = type;
+                if(type != "DateTime")
+                     lowerType = type.ToLowerInvariant();
+
                 if (!File.Exists(filepath))
                 {
                     using (StreamWriter sw = File.CreateText(filepath))
                     {
-                        sw.WriteLine("public " + type.ToLower() + " " + name + " { get; set; }");
+                        sw.WriteLine("public class "+tableName+" {");
+                        sw.WriteLine("\tpublic " + lowerType + " " + name + " { get; set; }");
                     }
                 }
                 else
                 {
                     using (StreamWriter sw = File.AppendText(filepath))
                     {
-                        sw.WriteLine("public " + type + " " + name + " { get; set; }");
+                        sw.WriteLine("\tpublic " + lowerType + " " + name + " { get; set; }");
                     }
                 }
             }
