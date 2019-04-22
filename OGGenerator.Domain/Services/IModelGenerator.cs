@@ -10,5 +10,7 @@ namespace OGGenerator.Domain.Services
     public interface IModelGenerator
     {
         void Generate(string table, CommandType type);
+        void GetAll();
+        void GenerateAll();
     }
 }

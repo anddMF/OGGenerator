@@ -25,36 +25,53 @@ namespace OGGenerator.ConsoleOps
                 continuar = "";
                 bool sair = false;
                 int menu = 0;
+                IModelGenerator svc = new ModelGenerator();
                 while (!sair)
                 {
                     menu = DoOptions();
 
-                    if (menu < 1 && menu > 3)
+                    if (menu < 1 || menu > 3)
                     {
-                        Console.WriteLine("==! Opcao invalida");
+                        Console.WriteLine("\n==! Opcao invalida");
                     }
                     else
                     {
                         switch (menu)
                         {
                             case 1:
-                                Console.WriteLine("opcao 1");
+                                Console.WriteLine("\n==| Opcao 1");
+                                Console.WriteLine("==| Executando...\n");
+                                 
+                                svc.GetAll();
+                                Console.ReadKey();
+                                sair = true;
+                                break;
+                            case 2:
+                                Console.WriteLine("\n==| Opcao 2");
+                                Console.Write("\n=>Insira a table: ");
+                                var tableName = Console.ReadLine();
+                                 
+                                svc.Generate(tableName, CommandType.Text);
+
+                                Console.ReadKey();
+                                sair = true;
+                                break;
+                            case 3:
+                                Console.WriteLine("\n==| Opcao 3");
+                                Console.WriteLine("==| Executando...\n");
+
+                                svc.GenerateAll();
+
+                                Console.ReadKey();
+                                sair = true;
                                 break;
                             default:
-                                Console.WriteLine("==! Conseguiu fazer merda, parabéns");
+                                Console.WriteLine("\n==! Conseguiu fazer merda, parabéns");
                                 break;
                         }
                     }
 
                 }
-
-                Console.Write("\n=>Insira a table: ");
-                var tableName = Console.ReadLine();
-
-                IModelGenerator svc = new ModelGenerator();
-                svc.Generate(tableName, CommandType.Text);
-
-                Console.ReadKey();
 
                 while (continuar != "y" && continuar != "n")
                     continuar = DoContinue();
@@ -64,7 +81,7 @@ namespace OGGenerator.ConsoleOps
             #endregion
         }
 
-        
+
 
         public static string DoContinue()
         {
@@ -81,27 +98,21 @@ namespace OGGenerator.ConsoleOps
         public static int DoOptions()
         {
             int option = 0;
-
-            while (option < 1 && option > 3)
+            try
             {
-                try
-                {
-                    Console.WriteLine("==> Escolha a operação desejada: ");
-                    Console.WriteLine("\t 1 - Listar todas as tabelas do DB");
-                    Console.WriteLine("\t 2 - Digitar a tabela desejada");
-                    Console.WriteLine("\t 3 - Gerar model de todas as tables do DB");
-                    option = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("\n\n==> Escolha a operacao desejada: ");
+                Console.WriteLine("\t 1 - Listar todas as tabelas do DB");
+                Console.WriteLine("\t 2 - Digitar a tabela desejada");
+                Console.WriteLine("\t 3 - Gerar model de todas as tables do DB");
+                option = Convert.ToInt32(Console.ReadLine());
 
-                    return option;
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("==! Erro de conversão: " + ex.Message);
-                    return 0;
-                }
+                return option;
             }
-
-            return 0;
+            catch (Exception ex)
+            {
+                Console.WriteLine("\n==! Erro de conversao: " + ex.Message);
+                return 0;
+            }
         }
     }
 }

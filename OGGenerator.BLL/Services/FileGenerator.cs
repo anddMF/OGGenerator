@@ -25,8 +25,14 @@ namespace OGGenerator.BLL.Services
             try
             {
                 string lowerType = type;
-                if(type != "DateTime")
+                if(type == "String")
                      lowerType = type.ToLowerInvariant();
+
+                if(type == "Boolean")
+                     lowerType = "bool";
+
+                if(type == "Int32" || type == "Int64" || type == "Int16")
+                     lowerType = "int";
 
                 if (!File.Exists(filepath))
                 {
