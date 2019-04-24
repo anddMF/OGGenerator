@@ -30,7 +30,7 @@ namespace OGGenerator.ConsoleOps
                 {
                     menu = DoOptions();
 
-                    if (menu < 1 || menu > 3)
+                    if (menu < 1 || menu > 4)
                     {
                         Console.WriteLine("\n==! Opcao invalida");
                     }
@@ -65,6 +65,15 @@ namespace OGGenerator.ConsoleOps
                                 Console.ReadKey();
                                 sair = true;
                                 break;
+                            case 4:
+                                Console.WriteLine("\n==| Opcao 4");
+                                Console.Write("\n=>Insira o nome da proc: ");
+                                var procName = Console.ReadLine();
+                                svc.GenerateFromProc(procName);
+
+                                Console.ReadKey();
+                                sair = true;
+                                break;
                             default:
                                 Console.WriteLine("\n==! Conseguiu fazer merda, parabéns");
                                 break;
@@ -79,9 +88,7 @@ namespace OGGenerator.ConsoleOps
             } while (continuar == "y");
 
             #endregion
-        }
-
-
+        } 
 
         public static string DoContinue()
         {
@@ -92,7 +99,7 @@ namespace OGGenerator.ConsoleOps
             if (_continuar != "y" && _continuar != "n")
                 Console.WriteLine("\n==! Opcao inválida");
 
-            return _continuar;
+            return _continuar.ToLower();
         }
 
         public static int DoOptions()
@@ -104,6 +111,7 @@ namespace OGGenerator.ConsoleOps
                 Console.WriteLine("\t 1 - Listar todas as tabelas do DB");
                 Console.WriteLine("\t 2 - Digitar a tabela desejada");
                 Console.WriteLine("\t 3 - Gerar model de todas as tables do DB");
+                Console.WriteLine("\t 4 - Digitar o nome da proc para consultar parametros");
                 option = Convert.ToInt32(Console.ReadLine());
 
                 return option;

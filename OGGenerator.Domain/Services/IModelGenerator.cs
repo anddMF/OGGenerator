@@ -9,8 +9,9 @@ namespace OGGenerator.Domain.Services
 {
     public interface IModelGenerator
     {
-        void Generate(string table, CommandType type);
+        void Generate(string table, CommandType type, Dictionary<string, object> param = null);
         void GetAll();
         void GenerateAll();
+        void GenerateFromProc(string procName);
     }
 }
