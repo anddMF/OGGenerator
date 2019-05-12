@@ -16,7 +16,8 @@ Após, rodará a aplicação seguindo o passo a passo que será mostrado na tela
 </ul>
 
 # Novas atualizações
-Adaptação para windows forms e leitura de DB2.
+- [ ] Adaptação para Windows Forms com o intuito de facilitar o uso.
+- [ ] Funcionalidade também para bancos DB2.
 <br><br>
 <h3>Espero que ajude e lembre-se das palavras de ordem:</h3>
 <blockquote>Vem tranquilo, afoba não.</blockquote>
