@@ -1,0 +1,4 @@
+public class TB_USERS {
+	public string token { get; set; }
+	public string username { get; set; }
+	public string passwrd { get; set; }

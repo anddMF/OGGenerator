@@ -9,3 +9,9 @@ C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.Domain\obj\Debug\OGGenerato
 \\VBOXSVR\Shared\OGGenerator\OGGenerator.Domain\obj\Debug\OGGenerator.Domain.dll
 \\VBOXSVR\Shared\OGGenerator\OGGenerator.Domain\obj\Debug\OGGenerator.Domain.pdb
 \\VBOXSVR\Shared\OGGenerator\OGGenerator.Domain\obj\Debug\OGGenerator.Domain.csprojAssemblyReference.cache
+C:\Users\andrew\repo\OGGenerator\OGGenerator.Domain\bin\Debug\OGGenerator.Domain.dll
+C:\Users\andrew\repo\OGGenerator\OGGenerator.Domain\bin\Debug\OGGenerator.Domain.pdb
+C:\Users\andrew\repo\OGGenerator\OGGenerator.Domain\obj\Debug\OGGenerator.Domain.csprojAssemblyReference.cache
+C:\Users\andrew\repo\OGGenerator\OGGenerator.Domain\obj\Debug\OGGenerator.Domain.csproj.CoreCompileInputs.cache
+C:\Users\andrew\repo\OGGenerator\OGGenerator.Domain\obj\Debug\OGGenerator.Domain.dll
+C:\Users\andrew\repo\OGGenerator\OGGenerator.Domain\obj\Debug\OGGenerator.Domain.pdb

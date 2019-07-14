@@ -1,0 +1,3 @@
+14/07/2019 12:17:26 [ERROR]: Não é possível abrir o banco de dados "maste" solicitado pelo logon. Falha de logon.
+Falha de logon do usuário 'LAPTOP-E1M6THM1\andrew'. ModelGenerator.GetAll()
+14/07/2019 12:19:10 [ERROR]: Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server) ModelGenerator.GetAll()

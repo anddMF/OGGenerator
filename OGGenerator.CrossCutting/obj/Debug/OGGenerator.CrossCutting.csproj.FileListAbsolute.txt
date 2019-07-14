@@ -3,3 +3,9 @@
 \\VBOXSVR\Shared\OGGenerator\OGGenerator.CrossCutting\obj\Debug\OGGenerator.CrossCutting.csproj.CoreCompileInputs.cache
 \\VBOXSVR\Shared\OGGenerator\OGGenerator.CrossCutting\obj\Debug\OGGenerator.CrossCutting.dll
 \\VBOXSVR\Shared\OGGenerator\OGGenerator.CrossCutting\obj\Debug\OGGenerator.CrossCutting.pdb
+C:\Users\andrew\repo\OGGenerator\OGGenerator.CrossCutting\bin\Debug\OGGenerator.CrossCutting.dll
+C:\Users\andrew\repo\OGGenerator\OGGenerator.CrossCutting\bin\Debug\OGGenerator.CrossCutting.pdb
+C:\Users\andrew\repo\OGGenerator\OGGenerator.CrossCutting\obj\Debug\OGGenerator.CrossCutting.csprojAssemblyReference.cache
+C:\Users\andrew\repo\OGGenerator\OGGenerator.CrossCutting\obj\Debug\OGGenerator.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\andrew\repo\OGGenerator\OGGenerator.CrossCutting\obj\Debug\OGGenerator.CrossCutting.dll
+C:\Users\andrew\repo\OGGenerator\OGGenerator.CrossCutting\obj\Debug\OGGenerator.CrossCutting.pdb

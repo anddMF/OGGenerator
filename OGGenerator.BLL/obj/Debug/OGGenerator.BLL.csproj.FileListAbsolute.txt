@@ -22,3 +22,16 @@ C:\Users\NET-VM\source\repos\OGGenerator\OGGenerator.BLL\obj\Debug\OGGenerator.B
 \\VBOXSVR\Shared\OGGenerator\OGGenerator.BLL\obj\Debug\OGGenerator.BLL.pdb
 \\VBOXSVR\Shared\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.CrossCutting.dll
 \\VBOXSVR\Shared\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.CrossCutting.pdb
+C:\Users\andrew\repo\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.BLL.dll
+C:\Users\andrew\repo\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.BLL.pdb
+C:\Users\andrew\repo\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.CrossCutting.dll
+C:\Users\andrew\repo\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.Domain.dll
+C:\Users\andrew\repo\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.Infrastructure.dll
+C:\Users\andrew\repo\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.CrossCutting.pdb
+C:\Users\andrew\repo\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.Domain.pdb
+C:\Users\andrew\repo\OGGenerator\OGGenerator.BLL\bin\Debug\OGGenerator.Infrastructure.pdb
+C:\Users\andrew\repo\OGGenerator\OGGenerator.BLL\obj\Debug\OGGenerator.BLL.csprojAssemblyReference.cache
+C:\Users\andrew\repo\OGGenerator\OGGenerator.BLL\obj\Debug\OGGenerator.BLL.csproj.CoreCompileInputs.cache
+C:\Users\andrew\repo\OGGenerator\OGGenerator.BLL\obj\Debug\OGGenerator.BLL.csproj.CopyComplete
+C:\Users\andrew\repo\OGGenerator\OGGenerator.BLL\obj\Debug\OGGenerator.BLL.dll
+C:\Users\andrew\repo\OGGenerator\OGGenerator.BLL\obj\Debug\OGGenerator.BLL.pdb

@@ -14,47 +14,55 @@ namespace OGGenerator.CrossCutting
 
         public static void WriteToLogFile(logType typeLog, string messageErro, string method)
         {
-
-            #region Folder ops
-            string pathFolder = string.Format("{0}{1}", ConfigurationManager.AppSettings["PastaModels"], "\\logs");
-            if (!Directory.Exists(pathFolder))
+            try
             {
-                Directory.CreateDirectory(pathFolder);
-            }
-            #endregion
-
-            string filepath = string.Format("{0}\\{1}.txt", pathFolder, "logs");
-
-            if (!File.Exists(filepath))
-            {
-                #region CreateFile
-                CreateFileLog(typeLog, messageErro, filepath, method);
-                #endregion
-            }
-            else
-            {
-                #region Size and Append
-                if (ConvertBytesToMegabytes(File.ReadAllBytes(filepath).Length) >= 20.0)
+                #region Folder ops
+                string pathFolder = string.Format("{0}{1}", ConfigurationManager.AppSettings["PastaModels"], "\\logs");
+                if (!Directory.Exists(pathFolder))
                 {
-                    string[] txtList = Directory.GetFiles(pathFolder, "*.txt");
-                    foreach (string f in txtList)
-                    {
-                        File.Delete(f);
-                    }
+                    Directory.CreateDirectory(pathFolder);
+                }
+                #endregion
 
+                string filepath = string.Format("{0}\\{1}.txt", pathFolder, "logs");
+
+                if (!File.Exists(filepath))
+                {
+                    #region CreateFile
                     CreateFileLog(typeLog, messageErro, filepath, method);
+                    #endregion
                 }
                 else
                 {
-                    #region Append
-                    using (StreamWriter sw = File.AppendText(filepath))
+                    #region Size and Append
+                    if (ConvertBytesToMegabytes(File.ReadAllBytes(filepath).Length) >= 20.0)
                     {
-                        sw.WriteLine(string.Format("{0} [{1}]: {2} {3}", DateTime.Now, typeLog, messageErro, method));
+                        string[] txtList = Directory.GetFiles(pathFolder, "*.txt");
+                        foreach (string f in txtList)
+                        {
+                            File.Delete(f);
+                        }
+
+                        CreateFileLog(typeLog, messageErro, filepath, method);
+                    }
+                    else
+                    {
+                        #region Append
+                        using (StreamWriter sw = File.AppendText(filepath))
+                        {
+                            sw.WriteLine(string.Format("{0} [{1}]: {2} {3}", DateTime.Now, typeLog, messageErro, method));
+                        }
+                        #endregion
                     }
                     #endregion
                 }
-                #endregion
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine("\nTem certeza que colocou o endereço correto para a pasta?");
+                Console.WriteLine(ex.Message);
+            }
+
         }
 
         private static void CreateFileLog(logType typeLog, string messageErro, string filepath, string method)
