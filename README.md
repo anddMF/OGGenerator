@@ -8,7 +8,7 @@ O <b>Original Gangsta Generator</b> tem a função de gerar arquivos .cs com as 
 ```
 # Funcionamento
 Através do App.config o usuário coloca a sua connection string (por enquanto apenas em SQL Server) e o caminho da pasta que deseja os arquivos.
-Após, rodará a aplicação seguindo o passo a passo que será mostrado na tela, podendo optar por quatro opções:
+Após, rodará a aplicação seguindo o passo a passo que será mostrado na tela, podendo optar por três opções:
 <ul>
   <li>Gerar models de todas as tabelas do banco;</li>
   <li>Gerar models de uma tabela em específico;</li>
